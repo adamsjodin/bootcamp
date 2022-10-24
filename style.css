@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+
+
+/* Övning 1 - Japan */
+
 .japan {
     height:300px;
     width: 500px;
@@ -20,4 +24,27 @@
     background: #BD1917;
     border-radius: 50%;
     margin: auto;
+}
+
+/* Övning 2 - Menu easy */
+
+.menueasy{
+    display: flex;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 12rem;
+    background: #eeeeee;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6e6e6e;
+}
+.dark {
+    background: #6e6e6e;     
+    color: #eeeeee;
 }
