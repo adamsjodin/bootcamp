@@ -93,7 +93,7 @@ section ul li{
 
 .btn {
     color: #9b9b9b;
-    border-color: #9b9b9b;
+    border-color: #dad9d9;
     border-radius: 5px;
     padding: 3px 10px;
     font-size: 12px;
@@ -243,30 +243,80 @@ margin-bottom: 20px;
 
  /* Övning 6 - Kort med pacer */
 
-.kort {
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 450px;
+    height: 400px;
     width: 300px;
     box-shadow: 0px 0px 5px 5px rgb(215, 214, 214);
     margin: auto;
     margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    
+    padding: 2rem;
+
 }
 
 .quote {
-
     font-style: italic;
-    font-size: 15px;
-    padding: 40px;
-    
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 0;
 }
 
 .edsger {
     color: #9b9b9b;
-    font-size: 15px;
+    font-size: 12px;
 }
 
+.page-wrapper {
+    display: flex;
+    margin-top: auto;
+
+}
+.pager {
+    background-color: gray;
+    border: gray solid 6px;
+    border-radius: 6px;
+    margin: 5px;
+}
+.black {
+    background-color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) solid 6px;
+}
+
+
+ /* Övning 7 - Profilkort - Margret Hamilton */
+
+
+ .profilecard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    box-shadow: 0px 0px 5px 5px rgb(215, 214, 214);
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+
+ }
+
+ /* Övning 6 - Product card */
+
+ .product-card {
+     display: flex;
+     max-width: 64rem;
+     height: 32rem;
+     background-color: fff;
+     margin: auto;
+ }
+
+ .product-card__image {
+    margin:0; 
+    background: rgb(122, 110, 53);
+    display: flex;
+}
