@@ -398,7 +398,6 @@ margin-bottom: 20px;
      display: flex;
      flex-direction: column;
      margin-bottom: 20px;
-     
  }
 
  .product-component__topbox {
@@ -456,25 +455,91 @@ margin-bottom: 20px;
     font-size: 2rem;
     font-weight: 900;
     margin-top: auto;
+}
 
+
+ /* Övning 10 - product component row */
+
+.product-component__row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.product-component__row figcaption {
+    font-size: 1.5rem;
+    margin-top: auto;
+    margin-left: auto;
+    align-self: flex-end;
+    }
+
+.product-component__rightbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    box-shadow: px 5px 5px rgb(215, 214, 214);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    background: #FECF2F;
+    padding: 1rem;
+ }
+
+ .product-component__imagewrapper {
+     display: flex;
+     flex-direction: column;
+     margin: 0;
+     
+ }
+
+ .product-component__leftbox {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+    box-shadow: 0 5px 5px rgb(215, 214, 214);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    background: #fff;
+    padding: 0.5rem 1rem;
+ }
+ 
+.product-component__row img {
+    width: 10rem;
+    margin: auto;
+}
+
+.product-component__row h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    font-weight: 900;
+    padding-top: 1rem;
+}
+
+.product-component__row h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product-component__row p {
+    font-size: 1rem;
+    color: #7e7d7d;
+}
+
+.product-component__row button {
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    border-color: black;
+    background-color: white;
+    padding: 1rem; 
+    margin: 1rem;
+    margin-top: auto;
 }
 
 
 
 
-
- /* Övning 6 - Product card */
-
-/* .product-card {
-     display: flex;
-     max-width: 64rem;
-     height: 32rem;
-     background-color: fff;
-     margin: auto;
- }
-
- .product-card__image {
-    margin:0; 
-    background: rgb(122, 110, 53);
-    display: flex;
-} */
